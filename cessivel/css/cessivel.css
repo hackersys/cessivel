@@ -497,8 +497,20 @@ footer{
 
     .nav-menu-button{
         float: right;
+        margin: .5em 0;
         padding: 1em;
         visibility: visible;
+        height: 42px; width: 54px;
+    }
+    
+    .nav-menu-icon-white{
+        background: url(../icones/menu.png) no-repeat;
+        background-size: 42px;
+    }
+    
+    .nav-menu-icon-black{
+        background: url(../icones/menu2.png) no-repeat;
+        background-size: 42px;
     }
 
     .nav-menu-collapse{
