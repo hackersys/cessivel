@@ -516,21 +516,26 @@ footer{
     .nav-menu-collapse{
         display: none;
     }
-
+   
     .nav-menu ul{
-        width: 100%;
+        width: 80%;
         max-width: 740px;
-        position: absolute;
-        left: 0; top: 85px;
-        margin-bottom: 1em;
+        background-color: #393948;
+        color: #fff;
+        opacity: .96;
+        position: fixed;
+        left: 0; bottom: 0;
+        top: 0;
+        z-index: 9999;
     }
 
     .nav-menu ul li{
         display: list-item;
+        padding: .8em;
         margin: 0;
         text-align: center;
         line-height: 30px;
-        border-bottom: 1px solid #cccccc;
+        border-bottom: 1px solid #676792;
     }
     
     .footer-col .col-logo{
@@ -568,6 +573,8 @@ footer{
         position: absolute;
         left: 0; top: 85px;
         margin-bottom: 1em;
+        z-index: 999;
+        
     }
 
     .nav-menu ul li{
@@ -576,6 +583,7 @@ footer{
         text-align: center;
         line-height: 30px;
         border-bottom: 1px solid #cccccc;
+        
     }
     
     .footer-col .col-logo{
