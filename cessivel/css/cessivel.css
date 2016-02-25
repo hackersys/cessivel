@@ -1,3 +1,4 @@
+
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -163,12 +164,12 @@ a:hover{
 
 /* ================================================= DEFAULTS */
 
-h1{font-size: 32pt; font-weight: normal;}
-h2{font-size: 24pt; font-weight: normal;}
-h3{font-size: 19pt; font-weight: normal;}
-h4{font-size: 16pt; font-weight: normal;}
-h5{font-size: 14pt; font-weight: normal;}
-h6{font-size: 13pt; font-weight: normal;}
+h1{font-size: 48pt; font-weight: normal;}
+h2{font-size: 32pt; font-weight: normal;}
+h3{font-size: 24pt; font-weight: normal;}
+h4{font-size: 19pt; font-weight: normal;}
+h5{font-size: 16pt; font-weight: normal;}
+h6{font-size: 14pt; font-weight: normal;}
 
 /* CLASSES DE APOIO */
 
@@ -230,13 +231,20 @@ main, .content-wrap, .form-group-content{
     width: 100%;
 }
 
-.banner-text{
-    padding: 5% 0;
+.banner-text-style-1{ padding: 5% 0;}
+
+.banner-text-style-1 section{
+    padding: 10% 0;
 }
 
-.banner-text section{
-    padding: 10% 0;
-    vertical-align: middle;
+.banner-text-style-2{
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+.banner-text-style-2 section{
+    padding: 15% 0;
 }
 
 .expand{
@@ -452,6 +460,10 @@ footer{
     .form-style-1 .form-label-tgth{
         width: 40px;
     }
+    
+    .banner-text-style-2 h1{
+        font-size: 32pt;
+    }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 667px){
@@ -475,6 +487,9 @@ footer{
         display: inline-block;
         text-align: left;
     }
+    
+    .banner-text-style-1 section h1{ font-size: 28pt; }
+    .banner-text-style-1 h6{ font-size: 12pt; }
 
     .nav-header{
         display: block;
