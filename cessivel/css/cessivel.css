@@ -250,6 +250,10 @@ main, .content-wrap, .form-group-content{
     position: relative;
 }
 
+.banner-text-section p{
+    font-size: 10pt;
+}
+
 .banner-text-section section{
     position: absolute; 
     bottom: 0; left: 0; right: 0;
