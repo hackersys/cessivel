@@ -489,6 +489,31 @@ footer{
     color: #fff;
 }
 
+/**************************************************************** VIDEOS */
+
+.wrap-video{
+    width: 80%;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 4em 0; 
+}
+
+.video-container{
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+}
+
+.video-container iframe, .video-container embed, .video-container object{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100% !important;
+    height:100% !important;
+}
+
 /* para os dispositivos com orientação vertical */
 
 @media(max-width: 320px){
@@ -575,6 +600,10 @@ footer{
     
     .banner-text-style-2 h6{
         font-size: 10pt;
+    }
+    
+    .video-container video, iframe{
+        width: 100%;
     }
     
     .foo{
