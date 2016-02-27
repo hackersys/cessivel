@@ -250,7 +250,7 @@ main, .content-wrap, .form-group-content{
     position: relative;
 }
 
-.banner-text-section p{
+.banner-text-section section p{
     font-size: 10pt;
 }
 
